@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <div class="card">
+      <input class="card__search" type="text" placeholder="Search..." />
+      <div class="card__content">
+        <h1 class="content__capital">
+          <span class="content__city"></span>
+          <span>,</span>
+          <span class="content__country"></span>
+        </h1>
+        <div class="content__time"></div>
+        <div class="content__temperature"><span></span><sup> o</sup>C</div>
+        <div class="content__weather"></div>
+        <div class="content__desc">
+          <div class="content__foresight">
+            <i class="fa-solid fa-eye"></i>
+            <span>1000(m)</span>
+          </div>
+          <div class="content__wind">
+            <i class="fa-solid fa-wind"></i>
+            <span>3.41(m/s)</span>
+          </div>
+          <div class="content__summer">
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+            <span>99(%)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
