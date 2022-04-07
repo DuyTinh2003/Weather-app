@@ -42,8 +42,10 @@ async function render(inputValue) {
     if (valueTemplate < 18) {
       body.classList.add("cold");
     } else if (valueTemplate > 26) {
+      body.className = "";
       body.classList.add("hot");
     } else {
+      body.className = "";
       body.classList.add("warm");
     }
   } else {
